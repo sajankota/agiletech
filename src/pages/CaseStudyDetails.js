@@ -1,22 +1,22 @@
-import React from 'react';
-import Breadcrumb from '../components/Breadcrumb';
-import CaseStudyArea from '../components/CaseStudyArea';
-import FooterOne from '../components/FooterOne';
-import NavBar from '../components/NavBar';
+import React from "react";
+import Breadcrumb from "../components/Breadcrumb";
+import CaseStudyArea from "../components/CaseStudyArea";
+import FooterOne from "../components/FooterOne";
+import NavBar from "../components/NavBar";
 
 const CaseStudyDetails = () => {
   return (
     <>
-      {/* Navigation Bar  */}
+      {/* Navigation Bar */}
       <NavBar />
 
-      {/* Navigation Bar  */}
-      <Breadcrumb title="Case Study Details" />
+      {/* Navigation Bar */}
+      <Breadcrumb title={"Case Study Details"} />
 
-      {/* Case Study Area  */}
+      {/* Case Study Area */}
       <CaseStudyArea />
 
-      {/* Footer One  */}
+      {/* Footer One */}
       <FooterOne />
     </>
   );

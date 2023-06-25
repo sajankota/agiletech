@@ -1,6 +1,6 @@
 /*----------------------------------------------
     # Nav bar
----------------------------------------------- */
+----------------------------------------------*/
 .navbar-top {
   background: #091d3e;
   padding: 15px 0;
@@ -71,7 +71,7 @@
       position: relative;
       padding-left: 40px;
       &:after {
-        content: '';
+        content: "";
         position: absolute;
         left: 15px;
         top: 0;
@@ -124,7 +124,7 @@
             z-index: 0;
             padding-right: 14px;
             &:before {
-              content: '';
+              content: "";
               position: absolute;
               right: 3px;
               top: 50%;
@@ -137,7 +137,7 @@
               z-index: -1;
             }
             &:after {
-              content: '';
+              content: "";
               position: absolute;
               right: -1px;
               top: 40px;
@@ -227,8 +227,8 @@
                   position: absolute;
                   right: 15px;
                   top: 50%;
-                  content: '\f105';
-                  font-family: 'fontawesome';
+                  content: "\f105";
+                  font-family: "fontawesome";
                   @include transform(translateY(-50%));
                 }
                 > .sub-menu {
@@ -333,7 +333,7 @@
   border: none;
 }
 
-/**************** nav-left-part ************ */
+/**************** nav-left-part *************/
 .header-cat-menu {
   margin: 0;
   padding: 0;
@@ -388,8 +388,8 @@
             position: absolute;
             left: 17px;
             top: 50%;
-            content: '\f105';
-            font-family: 'fontawesome';
+            content: "\f105";
+            font-family: "fontawesome";
             @include transform(translateY(-50%));
             visibility: hidden;
             opacity: 0;
@@ -426,7 +426,7 @@
   }
 }
 
-/**************** nav-right-part ************ */
+/**************** nav-right-part *************/
 .nav-right-part {
   .navbar-phone {
     height: 80px;
@@ -491,8 +491,10 @@
   background: rgba(36, 107, 253, 0.1803921569);
 }
 .navbar-area-2 .nav-right-part .navbar-phone .icon img {
-  -webkit-filter: invert(38%) sepia(100%) saturate(3579%) hue-rotate(212deg) brightness(97%) contrast(105%);
-  filter: invert(38%) sepia(100%) saturate(3579%) hue-rotate(212deg) brightness(97%) contrast(105%);
+  -webkit-filter: invert(38%) sepia(100%) saturate(3579%) hue-rotate(212deg)
+    brightness(97%) contrast(105%);
+  filter: invert(38%) sepia(100%) saturate(3579%) hue-rotate(212deg)
+    brightness(97%) contrast(105%);
 }
 .navbar-area-2 .nav-right-part .navbar-phone h5,
 .navbar-area-2 .nav-right-part .navbar-phone span {
@@ -540,7 +542,7 @@
   display: none;
 }
 
-/**************** sidebar-menu ************ */
+/**************** sidebar-menu *************/
 .sidebar-menu {
   width: 0;
   position: fixed;
@@ -722,7 +724,7 @@
                 }
 
                 .sub-menu .menu-item-has-children:before {
-                  content: '\f107';
+                  content: "\f107";
                 }
                 li {
                   &.menu-item-has-children {
@@ -776,7 +778,7 @@
       width: 11px;
       height: 2px;
       background-color: var(--heading-color);
-      content: '';
+      content: "";
       top: -7px;
       left: 0;
     }
@@ -787,7 +789,7 @@
       width: 11px;
       height: 2px;
       background-color: var(--heading-color);
-      content: '';
+      content: "";
       top: 7px;
       left: 0;
     }
@@ -812,7 +814,7 @@
       width: 11px;
       height: 2px;
       background-color: var(--heading-color);
-      content: '';
+      content: "";
       top: -7px;
       left: 0;
     }
@@ -823,7 +825,7 @@
       width: 11px;
       height: 2px;
       background-color: var(--heading-color);
-      content: '';
+      content: "";
       top: 7px;
       left: 0;
     }
@@ -907,7 +909,11 @@
     margin-top: 0px;
     width: 100%;
   }
-  .navbar-area .nav-container .navbar-collapse .navbar-nav li.menu-item-has-children:before {
+  .navbar-area
+    .nav-container
+    .navbar-collapse
+    .navbar-nav
+    li.menu-item-has-children:before {
     right: 20px;
   }
   .navbar-area .nav-container .navbar-collapse .navbar-nav {
@@ -941,16 +947,43 @@
   .footer-area .footer-top .widget.widget_nav_menu ul li a {
     font-size: 14px;
   }
-  .navbar-area .nav-container .navbar-collapse .navbar-nav li.menu-item-has-children .sub-menu {
+  .navbar-area
+    .nav-container
+    .navbar-collapse
+    .navbar-nav
+    li.menu-item-has-children
+    .sub-menu {
     padding: 0 0 0 20px;
   }
-  .navbar-area .nav-container .navbar-collapse .navbar-nav li.menu-item-has-children .sub-menu li a {
+  .navbar-area
+    .nav-container
+    .navbar-collapse
+    .navbar-nav
+    li.menu-item-has-children
+    .sub-menu
+    li
+    a {
     padding: 12px 0;
   }
-  .navbar-area .nav-container .navbar-collapse .navbar-nav li.menu-item-has-children .sub-menu li:last-child a {
+  .navbar-area
+    .nav-container
+    .navbar-collapse
+    .navbar-nav
+    li.menu-item-has-children
+    .sub-menu
+    li:last-child
+    a {
     padding-bottom: 3px;
   }
-  .navbar-area .nav-container .navbar-collapse .navbar-nav li.menu-item-has-children .sub-menu li a:hover i {
+  .navbar-area
+    .nav-container
+    .navbar-collapse
+    .navbar-nav
+    li.menu-item-has-children
+    .sub-menu
+    li
+    a:hover
+    i {
     opacity: 0;
     margin-right: -18px;
   }
@@ -960,7 +993,13 @@
   .nav-right-part-desktop {
     display: none;
   }
-  .navbar-area .nav-container .navbar-collapse .navbar-nav li.menu-item-has-children .sub-menu li:hover {
+  .navbar-area
+    .nav-container
+    .navbar-collapse
+    .navbar-nav
+    li.menu-item-has-children
+    .sub-menu
+    li:hover {
     background: none;
   }
   .navbar-area .nav-container .navbar-collapse .navbar-nav li a {
@@ -968,7 +1007,7 @@
   }
 }
 
-/* Tablet Layout wide: 767px.  */
+/* Tablet Layout wide: 767px. */
 @media only screen and (max-width: 767px) {
   .logo-wrapper.mobile-logo {
     display: block;
@@ -999,7 +1038,7 @@
   }
 }
 
-/* medium tablet layout 599px  */
+/* medium tablet layout 599px */
 @media only screen and (max-width: 575px) {
   .navbar-area .nav-container {
     margin: 0px 0px;

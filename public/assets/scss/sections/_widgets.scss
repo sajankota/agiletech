@@ -1,6 +1,6 @@
 /*---------------------------------------------------
 	widget styles
----------------------------------------------------- */
+----------------------------------------------------*/
 .widget-title {
   position: relative;
   font-size: 20px;
@@ -16,7 +16,7 @@
     padding-bottom: 8px;
     color: var(--main-color);
     &:after {
-      content: '';
+      content: "";
       position: absolute;
       left: 0;
       bottom: -5px;
@@ -25,7 +25,7 @@
       background: #e1e1e1;
     }
     &:before {
-      content: '';
+      content: "";
       position: absolute;
       left: 0;
       bottom: -5px;
@@ -231,7 +231,7 @@
   border-radius: 5px;
   display: inline-block;
   margin: 0 5px 9px 0;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 400;
   font-size: 14px;
   color: #909090;
@@ -247,7 +247,7 @@
   border-color: var(--main-color);
 }
 
-/*********** widget_checkbox_list *********** */
+/*********** widget_checkbox_list ************/
 .widget_checkbox_list {
   .single-checkbox:last-child {
     margin-bottom: 0;
@@ -290,7 +290,7 @@
     width: 20px;
     background-color: #eae1d6;
     &:after {
-      content: '';
+      content: "";
       position: absolute;
       display: none;
       left: 8px;
@@ -306,7 +306,7 @@
   }
 }
 
-/******** widget-video-inner ******** */
+/******** widget-video-inner *********/
 .widget-video-inner {
   border-radius: 5px;
   .thumb {
@@ -315,7 +315,7 @@
     overflow: hidden;
     margin-bottom: 20px;
     &:after {
-      content: '';
+      content: "";
       position: absolute;
       height: 100%;
       width: 100%;
@@ -374,7 +374,7 @@
   }
 }
 
-/******** widget-contact ******** */
+/******** widget-contact *********/
 .widget_contact {
   .details {
     padding: 0;
@@ -447,7 +447,7 @@
         transition: 0.9s;
       }
       &:after {
-        content: '';
+        content: "";
         background: rgba(0, 0, 0, 0.5);
         height: 100%;
         width: 100%;

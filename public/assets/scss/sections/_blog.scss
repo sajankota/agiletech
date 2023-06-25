@@ -1,6 +1,6 @@
 /*------------------------------------------------
     blog style
------------------------------------------------- */
+------------------------------------------------*/
 .single-blog-inner {
   margin-bottom: 50px;
   overflow: hidden;
@@ -270,7 +270,7 @@
           }
         }
         &:after {
-          content: '';
+          content: "";
           position: absolute;
           left: 0;
           top: 15px;
@@ -296,7 +296,7 @@
   }
 }
 
-/************ page navigation *********** */
+/************ page navigation ************/
 .pagination {
   display: inline-flex;
   margin: 10px 0 0 0;
@@ -332,7 +332,7 @@
   }
 }
 
-/******** blog-details-page-content ********** */
+/******** blog-details-page-content ***********/
 .blog-details-page-content {
   .single-blog-inner {
     box-shadow: none !important;
@@ -371,7 +371,7 @@
       margin-top: 15px;
       text-align: left;
       &:after {
-        content: '';
+        content: "";
         position: absolute;
         left: 0;
         top: 12px;
@@ -383,7 +383,7 @@
   }
 }
 
-/*********** tag-and-share *********** */
+/*********** tag-and-share ************/
 .tag-and-share {
   margin-top: 20px;
   border-bottom: 1px solid #e5e5e5;
@@ -431,7 +431,7 @@
   }
 }
 
-/****** prev-next-post ***** */
+/****** prev-next-post ******/
 .prev-next-post {
   padding: 20px;
   margin-top: 50px;
@@ -611,7 +611,7 @@
 }
 
 .blog-comment .comment-body .comment-metadata .edit-link a::before {
-  content: '.';
+  content: ".";
   margin-left: 8px;
   margin-right: 10px;
 }
@@ -625,7 +625,7 @@
   margin-bottom: 30px;
   font-size: 16px;
   line-height: 2em;
-  font-family: var(--aivons-font, 'Jost', sans-serif);
+  font-family: var(--aivons-font, "Jost", sans-serif);
   letter-spacing: 0;
   font-weight: 500;
 }

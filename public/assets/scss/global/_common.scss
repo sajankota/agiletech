@@ -1,6 +1,6 @@
 /*---------------------------------------
     ## Button
---------------------------------------- */
+---------------------------------------*/
 .btn {
   height: 55px;
   line-height: 55px;
@@ -19,7 +19,7 @@
     box-shadow: none;
   }
   &:after {
-    content: '';
+    content: "";
     background: var(--heading-color);
     position: absolute;
     transition: $transition;
@@ -205,7 +205,7 @@
     transition: 0.4s;
   }
   &:after {
-    content: '';
+    content: "";
     position: absolute;
     left: 0;
     bottom: 0;
@@ -245,7 +245,7 @@
 
 /*------------------------------------------------
     ## Back Top
------------------------------------------------- */
+------------------------------------------------*/
 .back-to-top {
   position: fixed;
   right: 30px;
@@ -295,10 +295,10 @@
 
 /*-----------------------------------------
     ## Preloader Css
-------------------------------------------- */
+-------------------------------------------*/
 .pre-wrap {
   position: fixed;
-  content: '';
+  content: "";
   transform: translate(-100%, -240%);
   font-size: 62px;
 }
@@ -403,7 +403,7 @@
 
 /*-----------------------------------------
     ## video
------------------------------------------- */
+------------------------------------------*/
 .video-thumb {
   position: relative;
   .video-play-btn-hover {
@@ -429,7 +429,7 @@
   box-shadow: 0 4px 15px rgba(19, 16, 34, 0.1);
   &:after {
     z-index: -1;
-    content: '';
+    content: "";
     position: absolute;
     width: 110px;
     height: 110px;
@@ -464,7 +464,7 @@
 
 /*-----------------------------------------
     ## Breadcumb
------------------------------------------- */
+------------------------------------------*/
 .breadcrumb-area {
   padding: 222px 0 108px;
   position: relative;
@@ -510,7 +510,7 @@
   }
 }
 
-/********* social-media ******** */
+/********* social-media *********/
 .social-media {
   padding: 0;
   margin: 0;
@@ -584,7 +584,7 @@
   }
 }
 
-/********* slider-control ******** */
+/********* slider-control *********/
 .slider-control-round {
   .slick-slider {
     .slick-next {
@@ -746,7 +746,7 @@
         @include transition(all, 0.3s, ease);
         &:after {
           position: absolute;
-          content: '';
+          content: "";
           top: -5px;
           left: -5px;
           border: 1px solid var(--main-color);
@@ -803,7 +803,7 @@
 
 /*--------------------------------------------------------------
 # Globals
--------------------------------------------------------------- */
+--------------------------------------------------------------*/
 .border-radius-6 {
   border-radius: 6px;
   img {
@@ -866,7 +866,7 @@
   position: relative;
   background-size: cover !important;
   &:after {
-    content: '';
+    content: "";
     position: absolute;
     height: 100%;
     width: 100%;
@@ -887,7 +887,7 @@
   position: relative;
   background-size: cover !important;
   &:after {
-    content: '';
+    content: "";
     position: absolute;
     height: 100%;
     width: 100%;

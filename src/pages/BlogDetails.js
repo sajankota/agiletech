@@ -1,22 +1,22 @@
-import React from 'react';
-import BlogDetailsArea from '../components/BlogDetailsArea';
-import Breadcrumb from '../components/Breadcrumb';
-import FooterOne from '../components/FooterOne';
-import NavBar from '../components/NavBar';
+import React from "react";
+import BlogDetailsArea from "../components/BlogDetailsArea";
+import Breadcrumb from "../components/Breadcrumb";
+import FooterOne from "../components/FooterOne";
+import NavBar from "../components/NavBar";
 
 const BlogDetails = () => {
   return (
     <>
-      {/* Navigation Bar  */}
+      {/* Navigation Bar */}
       <NavBar />
 
-      {/* Navigation Bar  */}
-      <Breadcrumb title="Blog Details" />
+      {/* Navigation Bar */}
+      <Breadcrumb title={"Blog Details"} />
 
-      {/* Blog Details Area  */}
+      {/* Blog Details Area */}
       <BlogDetailsArea />
 
-      {/* Footer One  */}
+      {/* Footer One */}
       <FooterOne />
     </>
   );

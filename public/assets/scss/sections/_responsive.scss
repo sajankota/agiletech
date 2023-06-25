@@ -1,6 +1,6 @@
 /*--------------------------------------------------
     ## All responsive style
---------------------------------------------------- */
+---------------------------------------------------*/
 @media all and (min-width: 1600px) {
   .container {
     max-width: 1280px;
@@ -133,10 +133,18 @@
   .navbar-area .nav-container .navbar-collapse .navbar-nav {
     padding-left: 0;
   }
-  .navbar-area .nav-container .navbar-collapse .navbar-nav li.menu-item-has-children {
+  .navbar-area
+    .nav-container
+    .navbar-collapse
+    .navbar-nav
+    li.menu-item-has-children {
     padding-right: 0;
   }
-  .navbar-area .nav-container .navbar-collapse .navbar-nav li.menu-item-has-children:after {
+  .navbar-area
+    .nav-container
+    .navbar-collapse
+    .navbar-nav
+    li.menu-item-has-children:after {
     top: 26px;
   }
   .navbar-area .nav-container .navbar-collapse {

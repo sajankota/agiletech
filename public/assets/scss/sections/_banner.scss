@@ -1,6 +1,6 @@
 /*----------------------------------------------
     # banner style
----------------------------------------------- */
+----------------------------------------------*/
 .banner-area {
   margin-top: -120px;
 }
@@ -46,7 +46,7 @@
     z-index: 1;
   }
   &:after {
-    content: '';
+    content: "";
     position: absolute;
     right: 40%;
     top: 0;
@@ -66,7 +66,8 @@
       .icon {
         background: #246bfd2e;
         img {
-          filter: invert(38%) sepia(100%) saturate(3579%) hue-rotate(212deg) brightness(97%) contrast(105%);
+          filter: invert(38%) sepia(100%) saturate(3579%) hue-rotate(212deg)
+            brightness(97%) contrast(105%);
         }
       }
       h5,
@@ -110,7 +111,7 @@
     border-radius: 300px 300px 0 0;
   }
   &:after {
-    content: '';
+    content: "";
     position: absolute;
     left: -25px;
     bottom: -25px;
